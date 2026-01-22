@@ -8,3 +8,13 @@ struct Tipo{
     void (*mostrar)(struct Objeto*);
     void (*sumar)(struct Objeto*, struct Objeto*);
 }
+
+struct Numero{
+    OBJECT
+    int valor;
+}
+
+struct Texto{
+    OBJECT
+    char* contenido;
+}
